@@ -18,11 +18,13 @@ Automated script for provisioning AWS infrastructure. Creates VPCs, subnets, sec
    ```bash
    git clone https://github.com/yourusername/aws-infrastructure-provisioning.git
 2. Navigate to the Script Directory:
+   ```bash
    cd aws-infrastructure-provisioning
-3. Make the Script Executable and Run:
+4. Make the Script Executable and Run:
+   ```bash
    chmod +x provision.sh
    ./provision.sh
-4. Follow the Prompts: Select OS, region, and availability zones.
+6. Follow the Prompts: Select OS, region, and availability zones.
 
 Requirements - 
 * AWS CLI installed and configured with necessary permissions.
