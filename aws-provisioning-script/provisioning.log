@@ -1,0 +1,38 @@
+Select the AWS region:
+1) us-east-1
+2) us-west-1
+3) us-west-2
+4) eu-west-1
+Enter the number of your choice: Select the first availability zone:
+1) us-east-1a
+2) us-east-1b
+3) us-east-1c
+Enter the number of your choice: Select the second availability zone:
+1) us-east-1a
+2) us-east-1b
+3) us-east-1c
+Enter the number of your choice: Select the operating system for the EC2 instance:
+1) Amazon Linux 2
+2) Ubuntu 20.04 LTS
+3) Windows Server 2019
+4) MacOS-Sonoma-server
+5) Red Hat Enterprise Linux
+6) SUSE Linux Enterprise Server
+7) Debian 12 (HVM)
+Enter the number of your choice: VPC created: vpc-04e609ae920b20880
+Subnet created in us-east-1a: subnet-0df47ce8dca6cafaa
+Subnet created in us-east-1b: subnet-07572529e86a51d61
+Security group created: sg-0e767b495630eb35a
+True
+SECURITYGROUPRULES	0.0.0.0/0	22	sg-0e767b495630eb35a	992382545316	tcp	False	sgr-0415892861f23a07b	22
+DBSUBNETGROUP	arn:aws:rds:us-east-1:992382545316:subgrp:example-db-subnet-group-1723809671	DB Subnet Group	example-db-subnet-group-1723809671	Complete	vpc-04e609ae920b20880
+SUBNETS	subnet-0df47ce8dca6cafaa	Active
+SUBNETAVAILABILITYZONE	us-east-1a
+SUBNETS	subnet-07572529e86a51d61	Active
+SUBNETAVAILABILITYZONE	us-east-1b
+SUPPORTEDNETWORKTYPES	IPV4
+DB Subnet Group created: example-db-subnet-group-1723809671
+EC2 instance created: i-0b4008a18c48f3adc
+
+An error occurred (DBInstanceAlreadyExists) when calling the CreateDBInstance operation: DB instance already exists
+Error creating RDS Instance
