@@ -29,11 +29,6 @@ Automated script for provisioning AWS infrastructure. Creates VPCs, subnets, sec
 Requirements - 
 * AWS CLI installed and configured with necessary permissions.
 
-License
-* This project is licensed under the MIT License.
-
-
-
 
 
 
